@@ -26,6 +26,8 @@ double squareDiagonal(double a)
     return a * sqrt(2);
 }
 
+// Комментарий с другого ПК
+
 // ===== Главная функция: меню =====
 
 int main() {
