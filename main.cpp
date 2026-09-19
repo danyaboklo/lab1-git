@@ -13,6 +13,12 @@ double calculateSquare(double a)
     return a * a;
 }
 
+// Периметр квадрата
+double squarePerimeter(double a)
+{
+    return 4 * a;
+}
+
 // ===== Главная функция: меню =====
 
 int main() {
@@ -23,6 +29,7 @@ double x;
 do {
 cout << "\n=== Вариант 2: расчёты для квадрата ===\n";
 cout << "1. Площадь\n";
+cout << "2. Периметр\n";
 cout << "0. Выход\n";
 
 cout << "Выберите пункт: ";
@@ -36,6 +43,14 @@ cin>>x;
 cout<<"Результат: "
 <<calculateSquare(x)<<endl;
 break;
+
+case 2:
+cout <<"Введите число: ";
+cin>>x;
+cout<<"Результат: "
+<<squarePerimeter(x)<<endl;
+break;
+
 
 case 0:
 cout << "Работа завершена.\n";
